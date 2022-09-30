@@ -7,4 +7,4 @@ To trigger the failure, run `conan create . 0.0.1@test/test`. It will fail to fi
 
 This only happens if both libraries are set to SHARED. If you set either to STATIC, the test package succeeds.
 
-Linking to `double-share::pkg1` in the test package also doesn't have any effect.
+Explicity linking to `double-share::pkg1` in the test package also doesn't have any effect.
